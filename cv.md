@@ -4,5 +4,5 @@ layout: cv
 actions:
   - label: "Download as PDF"
     icon: pdf
-    url: "#pdf-asset"
+    url: "/assets/CV_Jongyoon_Kim_2021.pdf"
 ---
