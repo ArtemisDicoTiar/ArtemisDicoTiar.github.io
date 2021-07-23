@@ -16,7 +16,7 @@ tags: [programming, study, scala]
 
 주어진 숫자들 중 3개를 더해서 소수가 되는 경우의 수를 구해라
 
- ## Inputs
+## Inputs
 
 | Variable Name | type        | meaning |
 | ------------- | ----------- | ------- |
