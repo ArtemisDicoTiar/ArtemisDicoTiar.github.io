@@ -17,12 +17,12 @@ lang: en-US
 title: Johnsetta Stone
 email: johnjongyoonkim@gmail.com 
 description: John's technology knowledge library.
-baseurl: "/" # the optional subpath of your site, e.g. "/blog"
+baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author: 
   name: John Kim
   twitter:
-  picture:
+  picture: "/assets/images/ID.JPG"
 twitter_username:
 github_username: ArtemisDicoTiar
 logo: "/assets/images/favicon/android-chrome-512x512.png"
