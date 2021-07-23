@@ -19,9 +19,6 @@
     {% if cv.basics.website %}
       <div class="website"><strong>{{ site.data.theme.t.cv_summary_contact_website | default: 'Website' }}</strong> <a href="{{ cv.basics.website }}">{{ cv.basics.website }}</a></div>
     {% endif %}
-    {% if cv.basics.picture %}
-      <img class="picture" src="{{ cv.basics.picture }}" alt="{{ cv.basics.name }}">
-    {% endif %}
     {% if cv.basics.profiles %}
       {% for p in cv.basics.profiles %}
         <div class="item">

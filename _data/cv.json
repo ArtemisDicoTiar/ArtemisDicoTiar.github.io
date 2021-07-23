@@ -1,43 +1,46 @@
 {
   "basics": {
     "name": "Jongyoon (John) Kim",
-    "label": "Very extravagant man",
-    "picture": "/assets/images/chocolate-chip-cookies-lg.jpg",
+    "label": "Full-stack web developer/ Data scientist (sensor, computer) / Electrical and Electronic Engineer",
+    "picture": "",
     "email": "johnjongyoonkim@gmail.com",
     "phone": "(+44)-07983-865784",
     "website": "http://johnjongyoonkim.com",
-    "summary": "Nash is well versed in the Montoyan / Artesian Connection, preparation of grasshopper mash, and baking of grover loaves.",
+    "summary": "Very confident of applying new knowledge to improve system. Love to learn new things and soliding knowledge.",
     "location": {
-      "address": "123 Sesame Street",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Cathedral Park",
+      "postalCode": "BS8 1JR",
+      "city": "Bristol",
+      "countryCode": "UK",
+      "region": "Bristol"
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "Facebook",
+        "username": "DicoTiar",
+        "url": "https://facebook.com/DicoTiar"
+      },{
+        "network": "Linkedin",
         "username": "Towlette_Pettetucci",
-        "url": "https://twitter.com/Towlette_Pettetucci"
-      },
-      {
-        "network": "SoundCloud",
-        "username": "Towlette_Pettetucci",
-        "url": "https://soundcloud.com/Towlette_Pettetucci"
+        "url": "https://linkedin.com/jongyoon-kim-9a1941143"
+      },{
+        "network": "Github",
+        "username": "ArtemisDicoTiar",
+        "url": "https://github.com/ArtemisDicoTiar"
       }
     ]
   },
   "work": [
     {
-      "company": "The Whip",
-      "position": "CEO/President",
-      "website": "https://thewh.ip",
-      "startDate": "2013-12-01",
-      "endDate": "",
-      "summary": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+      "company": "University of Bristol",
+      "position": "Teaching Assistant",
+      "startDate": "2020-09-01",
+      "endDate": "2021-06-30",
+      "summary": "As undergraduate Teaching Assistance, I have worked for following units. To support junior students, I have replied to their queries during drop-in sessions via Teams (video calls). For SMPS project, I have supported about 5 groups' overall project MATLAB simulation (Simulink) design and theoretical understanding.",
       "highlights": [
-        "Concealed nipper in embrodiery.",
-        "Dealt with Elastical Gomez on a daily basis."
+        "* Electronics 2",
+        "* Switching Mode Power Supply (SMPS) Project",
+        "* Fields and Devices"
       ]
     }
   ],
