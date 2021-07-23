@@ -5,7 +5,6 @@
     "picture": "",
     "email": "johnjongyoonkim@gmail.com",
     "phone": "(+44)-07983-865784",
-    "website": "http://johnjongyoonkim.com",
     "summary": "Very confident of applying new knowledge to improve system. Love to learn new things and soliding knowledge.",
     "location": {
       "address": "Cathedral Park",
@@ -81,7 +80,6 @@
     {
       "organization": "IEN Institute, NCUK Korea",
       "position": "Student Ambassador, Reporter",
-      "website": "",
       "startDate": "2018-01-01",
       "endDate": "2019-05-30",
       "summary": "Explains about the NUCK Foundation Year programme, Illustrates the UK university life via blog posting.",
@@ -160,20 +158,46 @@
   ],
   "skills": [
     {
-      "name": "Audio Juggling",
-      "level": "Master",
+      "name": "Web-development",
+      "level": "Experienced",
       "keywords": [
-        "Ointment",
-        "Voltor",
-        "Millipedes"
+        "MySQL (MariaDB)",
+        "HTML",
+        "CSS",
+        "JS (Vue.js)",
+        "python (Django, Flask)"
       ]
-    },
-    {
-      "name": "Bruschotti",
-      "level": "Satisfactory",
+    },{
+      "name": "Server",
+      "level": "Experienced",
       "keywords": [
-        "Snow camp",
-        "Owl"
+        "Network protocols",
+        "Docker, Docker-Compose",
+        "Kubernetes",
+        "nginx"
+      ]
+    },{
+      "name": "Data Engineering / Machine Learning / Deep Learning",
+      "level": "Experienced",
+      "keywords": [
+        "python (Airflow ETL, crawler development)",
+        "Tensorflow(Keras)",
+        "statsmodel, scikit-learn (for ARIMA model, SIER model design)"
+      ]
+    },{
+      "name": "Electrical & Electronic Engineering",
+      "level": "Experienced",
+      "keywords": [
+        "Arduino controller deisgn/coding",
+        "IoT Devices: Wi-Fi communications, Bluetooth communications"
+      ]
+    },{
+      "name": "Mechanical Engineering",
+      "level": "Newbie",
+      "keywords": [
+        "3D CAD/CAM model design: Fusion360",
+        "3D Printer, CNC milling machine",
+        "Handy machines"
       ]
     }
   ],
@@ -188,17 +212,31 @@
   ],
   "interests": [
     {
-      "name": "The Information Superhighway",
+      "name": "Application of Machine Learning",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Control System with Machine Learning",
+        "Machine learning for forecasting"
+      ]
+    },{
+      "name": "Parallel, Distributed computing",
+      "keywords": [
+        "faster computing",
+        "large volume of data"
+      ]
+    },{
+      "name": "Computer vision & Human Friendly content",
+      "keywords": [
+        "Real-Time/Non-realtime Vision information Computing",
+        "Image Processing",
+        "OCR",
+        "NLP"
       ]
     }
   ],
   "references": [
     {
-      "name": "Available on Request",
-      "reference": "..."
+      "name": "...",
+      "reference": "Available on Request"
     }
   ]
 }
