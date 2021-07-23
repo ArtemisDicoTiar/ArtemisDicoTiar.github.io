@@ -21,8 +21,8 @@
         "url": "https://facebook.com/DicoTiar"
       },{
         "network": "Linkedin",
-        "username": "Towlette_Pettetucci",
-        "url": "https://linkedin.com/jongyoon-kim-9a1941143"
+        "username": "Jongyoon Kim",
+        "url": "https://www.linkedin.com/in/jongyoon-kim-9a1941143/"
       },{
         "network": "Github",
         "username": "ArtemisDicoTiar",
@@ -88,17 +88,26 @@
       "endDate": "2021-07-10",
       "gpa": "First Class Honours (4.0+/4.5)",
       "courses": [
-        "DB1101 - Perpendicular Crosstalk",
-        "CS2011 - Introduction to Moisturization"
+        "EENG30002 Networking Protocol Principles 3",
+        "EENG30009 Individual Research Project 3",
+        "EENG30010 Mobile Communication Systems",
+        "EENG30013 Power Electronics, Machines & Drive Technologies",
+        "EENG31400 Digital Filters and Spectral Analysis 3",
+        "EENG34030 Embedded and Real-Time Systems",
+        "EENG36000 Electronics 3",
+        "EMAT30670 Optimisation Theory and Applications",
+        "EENG23000 Control 2",
+        "EENG21000 Signals and Systems",
+        "EENG22000 Communications"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Warble Pioneer Award",
-      "date": "2001-11-01",
-      "awarder": "Levi Goulet",
-      "summary": "Have you seen my turtle?"
+      "title": "Paul Dirac scholarship",
+      "date": "2019-09",
+      "awarder": "University of Bristol - Faculty of Engineering",
+      "summary": "Awarded to student who has academic excellance on University application."
     }
   ],
   "publications": [
