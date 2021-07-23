@@ -48,6 +48,6 @@ navigation_pages:
   - about.md
   - cv.md
   - posts.md
-  - tags.md
-  - recipes.md
+  - projects.md
   - categories.md
+  - tags.md
