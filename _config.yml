@@ -36,16 +36,14 @@ algolia:
   powered_by: # true (default), false
 
 # page settings
-page:
-  comments: true
+comments: true
 
 jekyll:
   environment: "production"
 
-site:
-  disqus:
-    shortname: "https-artemisdicotiar-github-io"
-  google_analytics: G-Q73MJL8NGZ
+disqus:
+  shortname: "https-artemisdicotiar-github-io"
+google_analytics: G-Q73MJL8NGZ
 
 # Liquid
 liquid:
