@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jongyoon (John) Kim",
-    "label": "Full-stack web developer/ <br/>Data scientist (sensor, computer)/ <br/>Electrical and Electronic Engineer",
+    "label": "Full-stack web developer <br/>Data scientist (sensor, computer) <br/>Electrical and Electronic Engineer",
     "picture": "",
     "email": "johnjongyoonkim@gmail.com",
     "phone": "(+44)-07983-865784",
@@ -78,6 +78,17 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "IEN Institute, NCUK Korea",
+      "position": "Student Ambassador, Reporter",
+      "website": "",
+      "startDate": "2018-01-01",
+      "endDate": "2019-05-30",
+      "summary": "Explains about the NUCK Foundation Year programme, Illustrates the UK university life via blog posting.",
+      "highlights": [
+        "Writing short essays or reports with some pictures and videos about the University of Bristol for students who are studying the International Foundation Year in Korea."
+      ]
+    }
   ],
   "education": [
     {
@@ -100,6 +111,30 @@
         "EENG21000 Signals and Systems",
         "EENG22000 Communications"
       ]
+    },{
+      "institution": "Advanced Placement (self-taught)",
+      "area": "Physics",
+      "studyType": "University Level Equivalent",
+      "startDate": "2018-01-01",
+      "endDate": "2018-6-31",
+      "gpa": "average: 4/5",
+      "courses": [
+        "AP Physics 2: 3/5",
+        "AP Physics C (Mechanics): 5/5"
+      ]
+    },{
+      "institution": "IEN Institute, NCUK Korea",
+      "area": "Chemistry",
+      "studyType": "High School, A-Level Equivalent",
+      "startDate": "2017-03-01",
+      "endDate": "2017-12-31",
+      "gpa": "A A* A* A*",
+      "courses": [
+        "English for Academic Purpose (EAP): A (IELTS 7.0 Equivalent)",
+        "Chemistry: A*",
+        "Further Mathematics: A*",
+        "Pure Mathematics: A*"
+      ]
     }
   ],
   "awards": [
@@ -108,15 +143,19 @@
       "date": "2019-09",
       "awarder": "University of Bristol - Faculty of Engineering",
       "summary": "Awarded to student who has academic excellance on University application."
+    },{
+      "title": "NCUK-IEN graduation 2nd place",
+      "date": "2018-09",
+      "awarder": "NCUK-IEN Institute",
+      "summary": "Awarded to student who has academic excellance on NCUK Foundation Year programme. (2nd place)"
     }
   ],
   "publications": [
     {
-      "name": "Radio Julius",
-      "publisher": "Tanyo Lubbock",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.rhy.es",
-      "summary": "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test."
+      "name": "Single Image Super-Resolution(SISR) for Text-based Image: Benchmark and GUI",
+      "publisher": "Jongyoon Kim",
+      "releaseDate": "2021-04",
+      "summary": "Benchmark results of multiple SISR methods for text-based images and implemented GUI for users to use the methods more conviniently."
     }
   ],
   "skills": [
@@ -140,8 +179,11 @@
   ],
   "languages": [
     {
-      "language": "Nonsense",
+      "language": "Korean",
       "fluency": "Native speaker"
+    },{
+      "language": "English",
+      "fluency": "Fluent speaker"
     }
   ],
   "interests": [
@@ -155,8 +197,8 @@
   ],
   "references": [
     {
-      "name": " Nannette Nananacci",
-      "reference": "It is my pleasure to recommend Dugan Nash, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Available on Request",
+      "reference": "..."
     }
   ]
 }
