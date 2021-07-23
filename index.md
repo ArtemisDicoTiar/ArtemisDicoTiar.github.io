@@ -3,20 +3,17 @@ layout: home
 paginate: true
 alt_title: "Hello World! "
 sub_title: "Welcome to Johnsetta Stone."
-image: /assets/images/IMG_0585.jpg
+image: /assets/images/cover.jpg
 introduction: |
-  Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
-
-  - Clean responsive design with six customizable skins
-  - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
-  - About page layout
-  - Disqus Comments and Google Analytics support
-  - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+  This is John's technology knowledge library!
+  You can view the previous TILs (Today I Learned) on post archieve.
+  You can also have a look about who is John via 'About' and 'CV' page.
+  Have fun :)
 actions:
-  - label: "Get Started"
-    icon: github
-    url: "https://github.com/mmistakes/jekyll-theme-basically-basic"
-  - label: "Download"
-    icon: download
-    url: "https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip"
+  - label: "About"
+    url: "/about.html"
+  - label: "CV"
+    url: "/cv.html"
+  - label: "Posts"
+    url: "/posts/"
 ---
