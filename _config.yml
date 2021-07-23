@@ -25,7 +25,7 @@ author:
   picture:
 twitter_username:
 github_username: ArtemisDicoTiar
-logo: # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/assets/images/favicon/android-chrome-512x512.png"
 search: true # true, false (default)
 search_full_content: true # true, false (default)
 search_provider: lunr # lunr (default), algolia
@@ -34,6 +34,17 @@ algolia:
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
+
+# page settings
+page:
+  comments: true
+
+jekyll:
+  environment: "production"
+
+site:
+  disqus:
+    shortname: "artemisdicotiar"
 
 # Liquid
 liquid:
