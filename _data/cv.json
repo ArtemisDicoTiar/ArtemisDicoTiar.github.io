@@ -38,33 +38,55 @@
       "endDate": "2021-06-30",
       "summary": "As undergraduate Teaching Assistance, I have worked for following units. To support junior students, I have replied to their queries during drop-in sessions via Teams (video calls). For SMPS project, I have supported about 5 groups' overall project MATLAB simulation (Simulink) design and theoretical understanding.",
       "highlights": [
-        "* Electronics 2",
-        "* Switching Mode Power Supply (SMPS) Project",
-        "* Fields and Devices"
+        "Electronics 2",
+        "Switching Mode Power Supply (SMPS) Project",
+        "Fields and Devices"
+      ]
+    },{
+      "company": "NAVER Corp.",
+      "position": "Summer Software Engineering Intern",
+      "startDate": "2020-06-01",
+      "endDate": "2020-09-30",
+      "summary": "Software Engineer Intern. Built admin tool as webpage for manage search results and engineered features to improve search engine's rank model.",
+      "highlights": [
+        "Front-End(FE) build with Vue.js for Internal Admin page. The Back-End(BE) of the page is built by senior-engineer. By cooperating with others for developing one product (FE-BE) led me to understand the importance of communication with colleague and documenting the clear endpoint. This project guided me to have interest on Full-stack developing.",
+        "Feature Engineering for video search engine's rank model. To improve the performance of established rank model, more than 100 features about the video that were not used are analysed and processed. The engineered features improved Normalized Discounted Cumulative Gain (NDCG) of rank model and also the precision and recall. The ordinary Machine-learning methods are also important as much as how deep-learning works."
+      ]
+    },{
+      "company": "Envisible",
+      "position": "Summer Internship",
+      "startDate": "2019-06-01",
+      "endDate": "2019-09-30",
+      "summary": "Maintenance of hardware(HW) and software(SW) content for Kids cafe / Construction of multiple kiosks for new branch open.",
+      "highlights": [
+        "Supporting maintenance process of old kiosks.",
+        "Maintenance/modification/full-change of HW kiosk due to new application development. Experienced on following machines for parts production. (CNC milling machine, vertical/horizontal milling machine, 3D printer, table save and some handy machines) For CNC milling machine and 3D printer, I had experience of designing part of large parts/whole part of small parts with Autodesk Fusion360.",
+        "Proposed and applied the method for HW and SW maintenance and improvement.",
+        "Application and calibration of sensors and cameras for each kiosk. Most of kiosks had static focus camera so the camera was installed to plastic block which is going to be implanted to the kiosk and the camera is calibrated."
+      ]
+    },{
+      "company": "Envisible",
+      "position": "Summer Internship",
+      "startDate": "2018-06-01",
+      "endDate": "2018-09-30",
+      "summary": "Maintenance of hardware(HW) and software(SW) content for Kids cafe / Construction of multiple kiosks for new branch open.",
+      "highlights": [
+        "Documenting basic data from various books for children for designing education programme.",
+        "Participated on kids cafe maintenance project. Hardware for new contents of the kids cafe are built and installed. The existing hardwares are removed and disassembled.",
+        "The hardware specs of parts for the kiosk are measured and designed with Autodesk Fusion360."
       ]
     }
   ],
   "volunteer": [
-    {
-      "organization": "Steve's Meat Market",
-      "position": "Assistant",
-      "website": "",
-      "startDate": "1995-01-01",
-      "endDate": "1997-03-20",
-      "summary": "Ground up some sort of grasshopper mash for fishing.",
-      "highlights": [
-        "Awarded a 'Helium Biscuit'"
-      ]
-    }
   ],
   "education": [
     {
-      "institution": "University of Ointment",
-      "area": "Digital Skillets",
+      "institution": "University of Bristol",
+      "area": "Electrical and Electronic Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "startDate": "2018-06-01",
+      "endDate": "2021-07-10",
+      "gpa": "First Class Honours (4.0+/4.5)",
       "courses": [
         "DB1101 - Perpendicular Crosstalk",
         "CS2011 - Introduction to Moisturization"
