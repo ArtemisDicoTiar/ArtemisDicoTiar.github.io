@@ -1,12 +1,9 @@
 ---
-
-layout: post
-
 title: Programmers Scala Study (level 1.2)
 
-date: 2021-07-22 14:27:00 +0100
-
-description: Programmers coding study with programming language Scala. The difficulty selected is level 1.
+categories:
+  - Programming Study
+last_modified_at: 2021-07-22 14:27:00 +0100
 
 tags: [programming, study, scala]
 

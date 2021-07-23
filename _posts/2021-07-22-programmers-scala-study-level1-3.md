@@ -1,12 +1,9 @@
 ---
-
-layout: post
-
 title: Programmers Scala Study (level 1.3)
 
-date: 2021-07-22 14:27:00 +0100
-
-description: Programmers coding study with programming language Scala. The difficulty selected is level 1.
+categories:
+  - Programming Study
+last_modified_at: 2021-07-22 14:27:00 +0100
 
 tags: [programming, study, scala]
 
@@ -175,4 +172,3 @@ var updated_reserve = reserve.diff(lost)
 * Vector 등의 Iterable의 길이는 "Iterable".length로 구한다.
 * Iterable의 정렬은 "Iterable".sorted다.
 * Iterable에서 조건에 해당되는, 되지 않는 애들만 거르려면 filter, filterNot을 사용하면 된다. (bracket안에는 조건 넣기, Boolean이 output인 함수를 넣으면 된다.)
-
