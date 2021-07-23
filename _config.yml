@@ -45,7 +45,7 @@ jekyll:
 site:
   disqus:
     shortname: "https-artemisdicotiar-github-io"
-  google_analytics: "G-Q73MJL8NGZ"
+  google_analytics: G-Q73MJL8NGZ
 
 # Liquid
 liquid:
