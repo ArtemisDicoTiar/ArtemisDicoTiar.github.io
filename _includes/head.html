@@ -13,6 +13,10 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{ "/assets/images/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/images/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/images/favicon/apple-touch-icon-144x144.png" | prepend: site.baseurl }}">
 
   <script>
     /* Cut the mustard */
