@@ -91,7 +91,7 @@ defaults:
     values:
       layout: post
       read_time: true
-  # _recipes
+  # _projects
   - scope:
       path: "_projects"
       type: projects
