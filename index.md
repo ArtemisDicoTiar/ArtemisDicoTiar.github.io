@@ -16,4 +16,6 @@ actions:
     url: "/cv.html"
   - label: "Posts"
     url: "/posts/"
+  - label: "Projects"
+    url: "/projects/"
 ---
