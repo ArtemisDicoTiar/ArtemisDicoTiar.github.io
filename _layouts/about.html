@@ -7,10 +7,10 @@ layout: default
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <div class="entry-wrap">
-      <div class="entry-sidebar" style="float: left;">
+      <div class="entry-sidebar">
         {% include author %}
         {% if author_picture %}
-        <img class="author-picture" src="{{ author_picture }}" alt="{{ author_name }}" style="width: 30%; height: auto;">
+        <img class="author-picture" src="{{ author_picture }}" alt="{{ author_name }}" style="width: 30%; height: auto; float: left;">
         {% endif %}
       </div>
       <div class="entry-content">
