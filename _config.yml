@@ -81,6 +81,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+    sort_by: 'date'
 
 # Front Matter Defaults
 defaults:
