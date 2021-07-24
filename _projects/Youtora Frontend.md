@@ -8,6 +8,7 @@ tags:
   - Done
   - FrontEnd
 last_modified_at: 2020-09-10 12:00:00 +0100
+date: 2020-09-10 12:00:00 +0100
 ---
 
 [**Source Code**](https://github.com/eubinecto/youtora/tree/fe_dev/fe)

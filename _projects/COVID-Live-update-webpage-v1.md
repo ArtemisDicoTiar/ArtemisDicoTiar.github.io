@@ -11,6 +11,7 @@ tags:
   - version1
   - Webpage
 last_modified_at: 2020-03-30 12:00:00 +0100
+date: 2020-03-30 12:00:00 +0100
 ---
 
 [**Source Code**](https://github.com/ArtemisDicoTiar/covid_blog_initial)

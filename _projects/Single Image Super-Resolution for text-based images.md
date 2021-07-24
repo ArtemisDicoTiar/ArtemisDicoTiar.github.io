@@ -9,6 +9,7 @@ categories:
 tags:
   - Done
 last_modified_at: 2021-04-30 12:00:00 +0100
+date: 2021-04-30 12:00:00 +0100
 ---
 
 [**Thesis paper**](/assets/SISR_Thesis.pdf)
@@ -41,4 +42,3 @@ last_modified_at: 2021-04-30 12:00:00 +0100
 
 [**Image Repository**](https://github.com/ArtemisDicoTiar/SISRProjectImage)
 [**Source Code**](https://github.com/ArtemisDicoTiar/sisr_project)
-

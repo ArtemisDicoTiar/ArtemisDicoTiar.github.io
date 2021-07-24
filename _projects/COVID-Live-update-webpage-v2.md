@@ -12,6 +12,7 @@ tags:
   - Webpage
   - ETL
 last_modified_at: 2021-07-24 12:00:00 +0100
+date: 2021-07-24 12:00:00 +0100
 ---
 
 # [Demo Page](https://johnjongyoonkim.eu.ngrok.io/)

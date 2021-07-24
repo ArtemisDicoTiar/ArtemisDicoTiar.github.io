@@ -9,6 +9,7 @@ categories:
 tags:
   - In progress
 last_modified_at: 2021-07-24 12:00:00 +0100
+date: 2021-07-24 12:00:00 +0100
 ---
 
 [**wisdomify**](https://github.com/eubinecto/wisdomify)
