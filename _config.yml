@@ -66,8 +66,8 @@ feed:
 paginate: 3
 paginate_path: /page:num/
 
-last-modified-at:
-    date-format: '%Y-%m-%d %H:%M:%S %Z'
+# last-modified-at:
+#     date-format: '%Y-%m-%d %H:%M:%S %Z'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
