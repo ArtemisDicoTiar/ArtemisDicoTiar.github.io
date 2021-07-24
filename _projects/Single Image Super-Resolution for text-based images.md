@@ -1,8 +1,8 @@
 ---
 title: "Single Image Super-Resolution for text-based images"
 image: 
-  path: /assets/images/SISR.png
-  thumbnail: /assets/images/SISR.png
+  path: /assets/images/SISR.jpg
+  thumbnail: /assets/images/SISR.jpg
   caption: "Photo from project thesis presentation."
 categories: 
   - Bachelor Degree Project
