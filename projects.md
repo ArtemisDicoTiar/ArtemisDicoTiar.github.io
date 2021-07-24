@@ -4,6 +4,5 @@ layout: collection
 permalink: /projects/
 collection: projects
 entries_layout: grid
+sort_by: 'date'
 ---
-
-Sample document listing for the collection `_projects`.
