@@ -1,7 +1,9 @@
 ---
 title: "wisdomify -- storyteller"
-# image: 
-#   caption: "Youtora frontend page development"
+image: 
+  path: /assets/images/wisdomify_version0.jpg
+  thumbnail: /assets/images/wisdomify_version0.jpg
+  caption: "wisdomify demo version0"
 categories: 
   - wisdomify
   - storyteller
