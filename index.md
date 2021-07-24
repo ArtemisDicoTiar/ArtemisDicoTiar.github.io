@@ -1,7 +1,7 @@
 ---
 layout: home
 paginate: true
-alt_title: "Hello World! "
+alt_title: "Hello, World! "
 sub_title: "Welcome to Johnsetta Stone."
 image: /assets/images/cover.jpg
 introduction: |
