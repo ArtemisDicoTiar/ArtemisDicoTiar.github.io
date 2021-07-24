@@ -11,7 +11,10 @@ layout: default
     <div>
       <h2>Projects</h2>
       <div class="entries-Grid">
-        {% if site.plugins contains 'jekyll-paginate' and page.paginate %}
+        {% if site.plugins contains 'jekyll-paginate' and page.paginate and paginator.page != 1 %}
+          {% comment %}
+            Add paginator.posts loop if jekyll-paginate plugin is enabled and page.paginate == true
+          {% endcomment %}
           {% include projects-paginated.html %}
         {% else %}
           {% include projects-all.html %}
