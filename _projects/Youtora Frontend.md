@@ -1,7 +1,7 @@
 ---
 title: "Youtora FrontEnd"
-image: 
-  caption: "Youtora frontend page development"
+# image: 
+#   caption: "Youtora frontend page development"
 categories: 
   - Youtora
 tags:

@@ -1,103 +1,65 @@
 ---
-title: "Youtora FrontEnd"
-image: 
-  path: /assets/images/COVID-web-v1.jpg
-  thumbnail: /assets/images/COVID-web-v1.jpg
-  caption: "Initial webpage main page."
+title: "COVID Live update webpage Version2"
 categories: 
   - COVID-Webpage
 tags:
-  - Done
-  - version1
+  - In progress
+  - version2
   - Webpage
-last_modified_at: 2020-03-30 12:00:00 +0100
+  - ETL
+last_modified_at: 2021-07-24 12:00:00 +0100
 ---
 
-[**Source Code**](https://github.com/ArtemisDicoTiar/covid_blog_initial)
+# [Demo Page](https://johnjongyoonkim.eu.ngrok.io/)
+
+## Source Codes
+
+* [**FrontEnd**](https://github.com/ArtemisDicoTiar/winery/tree/feature/10/covid_tmp)
+* [**BackEnd(API)**](https://github.com/ArtemisDicoTiar/covid_data_blog)
+* [**Data Analysis**](https://github.com/ArtemisDicoTiar/MEDIC)
+* [**Airflow ETL dags (private)**](https://github.com/ArtemisDicoTiar/dags)
 
 ## Explanation
 
-This project is initially built to provide live (daily update) information of COVID cases (confirmed, deaths, recovered). 
+After studying about technology stacks especially on web development. Various tech stacks are applied for better performance and visualisation.
 
-This webpage is designed to provide largely two data.
-
-- COVID cases information 
-  - confirmed, deaths, recovered, removed, active (Line Graph)
-  - Predicted active patients (predicted with ARIMA)
-  - New cases (Map view)
-- Correlation information
-  - Between General Vaccination & Recovery rate (This vaccination is not COVID vaccine.)
-  - Between Medical related information & Recovery rate
+Continuing from version1 statis webpage, this project provides dynamic region search, openAPI, and better forecasting performance.
 
 ## Technology Stacks
 
-This webpage is built at web knowledge studying therefore all the tech stacks are out dated or low level.
-
 * Web
-  * HTML and CSS only (static only)
-  * Hosting: apache HTTP
-* Visualisation: Line graph, Map view
-  * plotly (python3)
-* Data crawler
-  * python3 (github, pandas, BeautifulSoup4)
-* Forecast/Prediction
-  * python3 (statsmodel)
+  * Hosting
+    * Nginx (reverse proxy) + Nginx (in docker)
+  * FrontEnd
+    * Vuejs (with Vuex, JavaScript)
+  * BackEnd
+    * python: Flask, Django
+* Server
+  * Database: MariaDB (MySQL equivalent)
+  * Data pipeline: Airflow ETL (python)
+    * **Celery** worker applied for parallel processing (Rabbit-mq)
+  * Deployment 
+    * Environment: Docker, Docker-compose, Kubernetes(Experiment)
+    * CI/CD: Jenkins
 
 ### Web
 
-When I was building this webpage, I did not have any knowledge about REST API, Front-End, Back-End and Database. Therefore, all the webpage is designed only with static files such as HTML and CSS. 
+Now FrontEnd and BackEnd both are built and hosted. Both applications are hosted via nginx in docker and nginx on host device (Raspberry pi 4, RPi) for reverse-proxy.
 
-To achieve data visualisation, python crawler was run everyday morning and exported to plotly HTML.
+FrontEnd is built with Vuejs for dynamic action and data represented on frontend view is requested via implemented BackEnd, REST API.
 
-The hosting of the static files are done with apache HTTP on Raspberry pi 4.
+BackEnd is initially built with flask as its framework is light to use. However, due to the endpoint for this project is increase because the type of data is added, therefore organised new BackEnd API is built with django-rest framework.
 
-### Data crawler
+### Server
 
-The data of COVID information was crawled from CSSE github page.
+MariaDB is used for this project's Database as most of data format fits into relational table.
 
-By git pulling the repository everyday, CSV files that contains data are updated.
+The data pipeline to crawl, processing, forecast/prediction, post-processing various format of origin data is built with python and run on Airflow1.10 ETL. To run multiple DAGs in parallel, rabbit-mq is installed and used via celery worker.
 
-With pandas, the csv format data are imported to python.
+The deployment process is triggered with CI/CD tool, Jenkins. The Jenkins is installed and connected to each github repository. To deploy application in clear environment, Docker image is built and its image run on the container. For better deployment process and performance, Kubernetes server (1 RPi4 main, 7 RPi 3 compute module subs) is being tested and experimented.
 
-For medical related data and 
+## Update List 
 
-### Visualisation
+Update list before this blog is built is written on [this page](https://johnjongyoonkim.eu.ngrok.io/updates).
 
-As illustrated on Web section, the visualisation of data is done by plotly library on python. The data is loaded via pandas and the visualisation result is exported as format of HTML with javascript.
-
-### Forecast/Prediction
-
-The short-term (7days) forecast of active patient is processed with ARIMA model (statsmodel library). The model was initially built with SEIR model which is often used on epidemiology papers. However, the model is not well fit to this pendemic situation so other mathematical model, ARIMA is used.
-
-## Page Map
-
-1. Main (index.html) 
-   1. Global
-      1. COVID pages
-      2. Map view
-      3. General Vaccination Correlation
-      4. Medical Information Correlation
-   2. Continental
-      1. Africa
-         1. countries
-         2. ...
-      2. America
-         1. countries
-         2. ...
-      3. Asia
-         1. countries
-         2. ...
-      4. Europe
-         1. countries
-         2. ...
-      5. Oceania
-         1. countries
-         2. ...
-
-## Further 
-
-During Summer internship (2020) in NAVER corp, I have learned how to organise webpage.
-
-Therefore, this project has been renewed to version2 and 3 by applying some latest technology stacks.
-
-As this page is built with static files, this is now archived on github repository which is last updated on 2020-09-27 18:41:30. This page is now no longer updated.
+Further updates are going to be listed below and linked page.
