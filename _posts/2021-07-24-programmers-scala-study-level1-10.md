@@ -44,9 +44,21 @@ return String // Day of (month of a / date of b)
 
 윤년이면 2월이 29일까지 있는 해이다.
 
+2016년 1월 1일은 금요일이다.
+
+~~~scala
+def solution(a: Int, b: Int): String = {
+  val dates = Vector[Int](31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+  val days = Vector[String]("FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU")
+
+  val diffDates = (1 to a-1).map(month => dates(month-1)).sum + b - 1
+
+  return days(diffDates%7)
+}
+~~~
+
 
 
 ## Study from Implementation
 
-* 시작과 끝을 알고 있는 숫자 리스트를 더 쉽게 생성할 수 있다.
-  * 그냥 (start to end by step) 이라고 적으면 된다.
+None
