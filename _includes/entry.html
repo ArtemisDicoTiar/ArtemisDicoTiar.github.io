@@ -11,7 +11,7 @@
     </h3>
     {% if post.image.thumbnail %}
       {% assign entry_image = post.image.thumbnail | relative_url | escape %}
-      <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+      <img class="entry-image u-photo" src="{{ entry_image }}" alt="" style="width: 30%; height: auto;">
     {% endif %}
   </header>
   <footer class="entry-meta">
