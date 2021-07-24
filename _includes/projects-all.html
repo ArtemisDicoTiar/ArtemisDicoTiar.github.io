@@ -1,3 +1,4 @@
-{% for post in site.projects sort_by=page.sort_by sort_order=page.sort_order %}
+{% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order %}
+{% for post in site.projects %}
   {% include entry.html %}
 {% endfor %}
