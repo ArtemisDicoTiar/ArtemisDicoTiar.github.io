@@ -1,6 +1,6 @@
 ---
 
-title: [Bookmark] Rosetta Code
+title: Rosetta Code
 
 categories:
   - Programming Study
