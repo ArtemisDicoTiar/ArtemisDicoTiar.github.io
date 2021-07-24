@@ -1,3 +1,6 @@
-{%- for post in site.projects | sort: 'date' | reverse -%}
+{% assign entries = site.projects %}
+{% assign entries = entries | sort: 'date' | reverse %}
+
+{%- for post in entries -%}
   {% include entry.html %}
 {%- endfor -%}
