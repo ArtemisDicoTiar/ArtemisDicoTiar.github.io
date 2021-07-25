@@ -25,7 +25,7 @@ string이 담긴 어레이에서 "Kim"이 담긴 인덱스를 리턴.
 ## output
 
 ~~~scala
-return s"김서방은 {%index}에 있다" // index -> where Kim is in the seoul
+return s"김서방은 %d에 있다".format(index) // index -> where Kim is in the seoul
 ~~~
 
 ## Conditions
