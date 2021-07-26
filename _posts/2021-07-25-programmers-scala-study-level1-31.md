@@ -4,7 +4,7 @@ title: Programmers Scala Study (level 1.31)
 
 categories:
   - Programming Study
-last_modified_at: 2021-07-25
+last_modified_at: 2021-07-26
 
 tags: [programming, study, scala]
 
@@ -55,4 +55,3 @@ def solution(x: Int): Boolean = {
 ~~~
 
 ### Study from Implementation
-
