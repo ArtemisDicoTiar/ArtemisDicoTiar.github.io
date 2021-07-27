@@ -42,4 +42,5 @@ Following bullet points are wisdomify related study, develop logs.
 
 Following bullet points are storyteller related study, develop logs.
 
-* ""
+* [DB controller via SSH tunnel](https://artemisdicotiar.github.io/cloud%20server/storyteller/2021/07/27/orcaleDB-python-controller.html)
+  * Now storyteller can save crawled information to Orcale MySQL DB.
