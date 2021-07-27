@@ -57,8 +57,7 @@ main {
 }
 
 .inner {
-  min-width: $large;
-  margin-right: auto;
+  max-width: $large;
 }
 
 /*
@@ -69,7 +68,7 @@ main {
 .layout--page {
   .entry-content {
     @include breakpoint($large) {
-      width: span(14 of 16);
+      width: span(16 of 16);
     }
   }
 }
