@@ -57,7 +57,8 @@ main {
 }
 
 .inner {
-  max-width: $large;
+  min-width: $large;
+  margin-right: auto;
 }
 
 /*
