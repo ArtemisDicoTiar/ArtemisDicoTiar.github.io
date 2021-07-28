@@ -44,7 +44,7 @@ return Long // total number of available 1*1 squares.
 | ---- | ---- | ------ |
 | 8    | 12   | 80     |
 
-![567420db-20f4-4064-afc3-af54c4a46016](/Users/JohnJongyoonKim/Documents/projects/exprArtemisDicoTiar.github.io/assets/post/programmers_scala_2_2.png)
+![image](//assets/post/programmers_scala_2_2.png)
 
 ## Solution
 
