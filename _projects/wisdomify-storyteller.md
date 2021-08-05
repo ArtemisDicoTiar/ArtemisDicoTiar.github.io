@@ -36,7 +36,10 @@ This project is building reverse-dictionary of korean proverb with BERT based mo
 
 Following bullet points are wisdomify related study, develop logs.
 
-* ""
+* [Version control for Dataset and model data (serialised file- eg → .ckpt, .pt, .mar)](https://github.com/eubinecto/wisdomify/issues/33)
+  * Now wisdomify projects can control the version of dataset and model data.
+* [Torch_serve for better model serving](https://github.com/eubinecto/wisdomify/issues/31)
+  * Now wisdomify projects can serve various model with torch serve. However, the docker container cannot be deployed on ainize server as it only exposes one port where the torchserve requires at least 2.
 
 ### storyteller posts
 
