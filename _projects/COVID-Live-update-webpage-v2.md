@@ -3,7 +3,6 @@ title: "COVID Live update webpage Version2"
 image: 
   path: /assets/images/COVID-v2.jpg
   thumbnail: /assets/images/COVID-v2.jpg
-  caption: "version2 webpage main page."
 categories: 
   - COVID-Webpage
 tags:
