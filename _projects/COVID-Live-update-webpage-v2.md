@@ -15,7 +15,8 @@ last_modified_at: 2021-07-24 12:00:00 +0100
 date: 2021-07-24 12:00:00 +0100
 ---
 
-# [Demo Page](https://johnjongyoonkim.eu.ngrok.io/)
+# [Service Page](http://covid.johnjongyoonkim.com/)
+### Notice: This page is serviced with physical server. Due to move from UK to South Korea, this page will be down for about 10days from 4th of September (0AM, BST)
 
 ## Source Codes
 
