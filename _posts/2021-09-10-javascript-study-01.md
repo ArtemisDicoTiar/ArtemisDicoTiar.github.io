@@ -1,5 +1,5 @@
 ---
-title: Tip1. const로 변하지 않는 값을 표현하라.
+title: Javascript Tip1
 
 categories:
   - Programming Study
@@ -129,4 +129,3 @@ const discountable = cart.filter(item => item.discountAvailable)
 * const를 최대한 사용하자.
 * 최대한 값을 immutable하게 하자.
 * loop를 돌며 값을 순회해야하는 경우에는 scala에서 공부했던것처럼 functional하게 작성하자.
-

@@ -1,5 +1,5 @@
 ---
-title: Tip2. let과 const의 유효 범위 충돌을 줄여라
+title: Javascript Tip2
 
 categories:
   - Programming Study
@@ -114,4 +114,3 @@ let과 const에는 보호기능이 있다. → **같은 이름의 변수로는 �
 * 변수 재할당이 필요하면 되도록 let 사용
 * const, let은 블럭 단위 할당이므로 블럭간 동일 변수명을 사용해도 충돌을 막을 수 있다.
 * const, let은 재선언이 불가하므로 runtime에 TypeError로 에러를 잡을 수 있다.
-
