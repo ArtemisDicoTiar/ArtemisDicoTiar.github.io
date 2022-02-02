@@ -119,7 +119,7 @@ reduce(String key, Iterator values):
 	2. 파티셔닝 개수(R)과 파티셔닝 함수는 사용자가 결정한다.
 
 이러한 전반적인 플로우는 아래 그림과 같다.
-![[/assets/post/map-reduce-execution-overview.png]]
+![](/assets/post/map-reduce-execution-overview.png)
 > MapReduce Execution Overview
 
 1. 사용자 프로그램에 있는 MR라이브러리는 우선, 16~64MB인 M개의 조각으로 나눈다. (이때 조각의 개수는 parameter로 사용자가 결정할 수 있다.) 이제 클러스터에서 사용할 장비로 프로그램을 복사해서 배포하고 실행시킨다.
