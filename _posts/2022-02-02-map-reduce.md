@@ -99,8 +99,8 @@ reduce(String key, Iterator values):
 	1. in-house Distributed File System을 이용해서 각 장비의 데이터를 관리.
 		1. 이게 HDFS인줄 알았지만 GFS(Google File System)라고 한다. 
 		2. HDFS와 비슷한듯 다르다. 아래 자료들을 가볍게 보면 뭔가 조금 다른 느낌을 이해할 수 있을 것.
-		3. https://www.slideshare.net/Hariharanganesan3/gfs-hdfs-introduction
-		4. https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4159&rep=rep1&type=pdf#:~:text=Inspired%20by%20GFS%2C%20the%20open,on%20multiple%20geo%2Ddiverse%20nodes.
+		3. [link1](https://www.slideshare.net/Hariharanganesan3/gfs-hdfs-introduction)
+		4. [link2](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.4159&rep=rep1&type=pdf#:~:text=Inspired%20by%20GFS%2C%20the%20open,on%20multiple%20geo%2Ddiverse%20nodes)
 			1. 4번 링크의 페이퍼를 참고해보면 HDFS가 GFS를 open-source로 사용가능하게 publish된 거라고 하는 거 같다.
 	2. 레플리카를 생성해서 reliability와 availability를 제공. (하드웨어가 unreliable하기 때문)
 7. How to use: 사용자는 실행할 job들을 scheduling 시스템에 제출한다.
@@ -119,8 +119,7 @@ reduce(String key, Iterator values):
 	2. 파티셔닝 개수(R)과 파티셔닝 함수는 사용자가 결정한다.
 
 이러한 전반적인 플로우는 아래 그림과 같다.
-
-![[map-reduce-execution-overview.png]]
+![[/assets/post/map-reduce-execution-overview.png]]
 > MapReduce Execution Overview
 
 1. 사용자 프로그램에 있는 MR라이브러리는 우선, 16~64MB인 M개의 조각으로 나눈다. (이때 조각의 개수는 parameter로 사용자가 결정할 수 있다.) 이제 클러스터에서 사용할 장비로 프로그램을 복사해서 배포하고 실행시킨다.
