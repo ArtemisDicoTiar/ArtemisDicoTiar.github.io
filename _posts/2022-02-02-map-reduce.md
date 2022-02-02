@@ -2,6 +2,7 @@
 title: Map-Reduce 
 categories:
   - Programming Study
+last_modified_at: 2022-02-04
 tags: [paper, reading, programming]
 ---
 
