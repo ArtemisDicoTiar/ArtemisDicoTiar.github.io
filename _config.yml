@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
+lang: en-UK
 title: Johnsetta Stone
 email: johnjongyoonkim@gmail.com 
-description: John's technology knowledge library.
+description: John's science & engineering knowledge library.
 baseurl: "/" # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author: 
