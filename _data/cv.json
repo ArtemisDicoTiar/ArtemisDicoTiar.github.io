@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Jongyoon (John) Kim",
-    "label": "Full-stack web developer <br/>Data scientist (sensor, computer) <br/>Electrical and Electronic Engineer",
+    "label": "Artificial Intelligence Researcher specialised Natural Language Processing",
     "picture": "",
     "email": "johnjongyoonkim@gmail.com",
-    "phone": "(+44)-07983-865784",
+    "phone": "(+82)-10-2589-9365",
     "summary": "Very confident of applying new knowledge to improve system. Love to learn new things and soliding knowledge.",
     "location": {
-      "address": "Cathedral Park",
-      "postalCode": "BS8 1JR",
-      "city": "Bristol",
-      "countryCode": "UK",
-      "region": "Bristol"
+      "address": "301 building, 1, Gwanak-ro, Gwanak-gu",
+      "postalCode": "08826",
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "South Korea"
     },
     "profiles": [
       {
@@ -31,6 +31,19 @@
   },
   "work": [
     {
+      "company": "NAVER Corp.",
+      "position": "Summer Software Engineering Intern",
+      "startDate": "2021-12-01",
+      "endDate": "2022-06-30",
+      "summary": "Data Engineer (Paid Internship). Refactored and improved PGM Click model logic along with Query Reformulation candidate extraction on Hadoop Ecosystem.",
+      "highlights": [
+        "Customisation of Apache Airflow for Working Group",
+        "PGM click model logic refactoring and improvement with Scala-Spark on Hadoop Ecosystem. Hyper-parameter tuning for all PGM models with grid-search. Pipelined and scheduled the model training daily with Airflow (train the model on spark cluster with data from hdfs).",
+        "Built Universal Retrieval Feature Experiment demo tool (For in-house purposes.)",
+        "CLI plugin built for convenience and improvement of in-house retrieval feature evaluation web page (GUI). Presented the plugin at the in-house Engineering Day conference.",
+        "Extracted Query Reformulation (QR) candidates with cross attention score of sentence BERT embeddings. Pipelined and scheduled the extraction by calling the pytorch model deployed on Kubernetes from spark cluster and storing on hdfs"
+      ]
+    },{
       "company": "University of Bristol",
       "position": "Teaching Assistant",
       "startDate": "2020-09-01",
@@ -90,6 +103,24 @@
   ],
   "education": [
     {
+      "institution": "Seoul National University",
+      "area": "Interdisciplinary Program in Artificial Intelligence",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2023-03-02",
+      "endDate": "2029-03-02",
+      "gpa": "97 (4.0 / 4.3)",
+      "courses": [
+        "2023-Spring Probabilistic Graphical Models",
+        "2023-Spring Studies in Artificial Intelligence",
+        "2023-Spring Social Computing",
+        "2023-Spring English Research Paper Writing for Graduate Students: Majors in Natural Sciences and Engineering",
+        "2023-Spring Understanding and Practicing University Teaching",
+        "2023-Autumn Natural Language Processing",
+        "2023-Autumn Recent Topics in Artificial Intelligence",
+        "2023-Autumn Machine Listening",
+        "2023-Autumn Seminar in Computational Linguistics"
+      ]
+    },{
       "institution": "University of Bristol",
       "area": "Electrical and Electronic Engineering",
       "studyType": "Bachelor",
@@ -137,6 +168,11 @@
   ],
   "awards": [
     {
+      "title": "AI Fellowship",
+      "date": "2023~",
+      "awarder": "Seoul National University, Interdisciplinary Program in Artificial Intelligence",
+      "summary": "Awarded to student who studies Artificial Intelligence."
+    },{
       "title": "Paul Dirac scholarship",
       "date": "2019-09",
       "awarder": "University of Bristol - Faculty of Engineering",
@@ -150,6 +186,11 @@
   ],
   "publications": [
     {
+      "name": "EMNLP 2023 under review",
+      "publisher": "Jongyoon Kim and 4 other authors",
+      "releaseDate": "2023-06",
+      "summary": "Under review ..."
+    }, {
       "name": "Single Image Super-Resolution(SISR) for Text-based Image: Benchmark and GUI",
       "publisher": "Jongyoon Kim",
       "releaseDate": "2021-04",
