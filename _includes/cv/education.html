@@ -20,7 +20,18 @@
           {% endif %}
         </div>
         {% if e.area %}
-          <div class="area"><strong>{{ e.area }}{% if e.studyType %}<span class="studyType">{{ e.studyType | prepend: ', ' }}</span>{% endif %}</strong>{% if e.gpa %}<span class="gpa">{{ e.gpa }}</span>{% endif %}</div>
+          <div class="area">
+            <strong>{{ e.area }}
+              {% if e.studyType %}
+              <span class="studyType">{{ e.studyType | prepend: ', ' }}</span>
+              {% endif %}
+            </strong>
+          </div>
+          {% if e.gpa %}
+          <div class="gpa">
+            <span class="gpa">{{ e.gpa }}</span>
+          </div>
+          {% endif %}
         {% endif %}
         {% if e.courses %}
           <h5 class="courses-title">{{ site.data.theme.t.cv_education_courses | default: 'Courses' }}</h5>
