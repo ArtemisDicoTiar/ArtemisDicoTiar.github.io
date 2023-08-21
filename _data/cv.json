@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jongyoon (John) Kim",
-    "label": "Artificial Intelligence Researcher specialised Natural Language Processing",
+    "label": "Artificial Intelligence Researcher specialised in Natural Language Processing",
     "picture": "",
     "email": "johnjongyoonkim@gmail.com",
     "phone": "(+82)-10-2589-9365",
@@ -253,6 +253,14 @@
   ],
   "interests": [
     {
+      "name": "Natural Language Processing",
+      "keywords": [
+        "NLP",
+        "Information Retrieval (IR)",
+        "Large Language Model",
+        "Reinforcement Learning"
+      ]
+    },{
       "name": "Application of Machine Learning",
       "keywords": [
         "Control System with Machine Learning",
@@ -263,14 +271,6 @@
       "keywords": [
         "faster computing",
         "large volume of data"
-      ]
-    },{
-      "name": "Computer vision & Human Friendly content",
-      "keywords": [
-        "Real-Time/Non-realtime Vision information Computing",
-        "Image Processing",
-        "OCR",
-        "NLP"
       ]
     }
   ],
