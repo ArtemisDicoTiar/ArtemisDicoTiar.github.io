@@ -3,7 +3,8 @@ title: "About"
 layout: about
 ---
 
-Jongyoon (John) is Full-stack web developer, Data scientist (sensor, computer) and Electrical and Electronic Engineer.
+Jongyoon (John) is Ph.D. Student in Aritificial intelligence specialised in Natural Language Processing.
+Previously, he studied Electrical and Electronic Engineering and has experience on data engineering.
 John loves to build both physical system and computer based software to help himself but also others.
 
 Therefore, there are quite a number of projects have been built regardless of its scale and magnitude.

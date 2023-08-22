@@ -1,5 +1,5 @@
 ---
-title: Projects Archive
+title: Projects & Publications Archive
 layout: collection
 permalink: /projects/
 collection: projects
