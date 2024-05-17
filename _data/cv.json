@@ -29,6 +29,20 @@
       }
     ]
   },
+  "publications": [
+    {
+      "name": "DADA: Distribution-Aware Domain Adaptation of PLMs for Information Retrieval, Findings of ACL 2024",
+      "publisher": "ACL 2024",
+      "releaseDate": "2024-06",
+      "summary": "..."
+    },
+    {
+      "name": "Single Image Super-Resolution(SISR) for Text-based Image: Benchmark and GUI",
+      "publisher": "Jongyoon Kim",
+      "releaseDate": "2021-04",
+      "summary": "Benchmark results of multiple SISR methods for text-based images and implemented GUI for users to use the methods more conviniently."
+    }
+  ],
   "work": [
     {
       "company": "NAVER Corp.",
@@ -182,19 +196,6 @@
       "date": "2018-09",
       "awarder": "NCUK-IEN Institute",
       "summary": "Awarded to student who has academic excellance on NCUK Foundation Year programme. (2nd place)"
-    }
-  ],
-  "publications": [
-    {
-      "name": "EMNLP 2023 under review",
-      "publisher": "Jongyoon Kim and 4 other authors",
-      "releaseDate": "2023-06",
-      "summary": "Under review ..."
-    }, {
-      "name": "Single Image Super-Resolution(SISR) for Text-based Image: Benchmark and GUI",
-      "publisher": "Jongyoon Kim",
-      "releaseDate": "2021-04",
-      "summary": "Benchmark results of multiple SISR methods for text-based images and implemented GUI for users to use the methods more conviniently."
     }
   ],
   "skills": [
