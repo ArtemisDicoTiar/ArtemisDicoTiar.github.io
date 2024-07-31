@@ -13,6 +13,13 @@ last_modified_at: 2024-07-31 12:00:00 +0900
 date: 2024-07-31 12:00:00 +0900
 ---
 
+# Summary
+This paper handles positional invariance in listwise reranking with temporal retrieval dataset.
+
+The paper is accepted on CLEF-WN 2024, LongEval Lab.
+
+This research is also being selected for conference travel sponsor awarded on 창의 자율 연구 1 (Creative and Independent AI Research 1) at Seoul National University.
+
 # Abstraction
 Benchmarking the performance of information retrieval (IR) methods are mostly conducted within a fixed set
 of documents (static corpora). However, in real-world web search engine environments, the document set is
