@@ -7,7 +7,7 @@ tags: [paper, reading, SIGIR]
 ---
 
 * Reference: [Paper Link](http://arxiv.org/abs/2311.09175)
-* 정리 순서: Abstract → Implementation/Idea → Ablation Study/Analysis → 
+* 정리 순서: Abstract → Implementation/Idea → Ablation Study/Analysis → Reflections
 
 # 1. Abstract (간단 정리)
 일단 이 페이퍼의 주요 포인트는 [이 페이퍼](https://aclanthology.org/2024.findings-eacl.134/)를 반박하는게 전부이다.
