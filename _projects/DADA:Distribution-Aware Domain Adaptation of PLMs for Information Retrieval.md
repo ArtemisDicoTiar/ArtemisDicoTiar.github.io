@@ -24,8 +24,7 @@ Pre-trained language models (PLMs) exhibit promise in retrieval tasks but strugg
 * This paper is sponsored by SNU-NAVER Hyperscale AI Center, MIST (IITP, South Korea Government).
 
 ## Paper
-* ACL2024: Available on August, 2024.
-* ACL-Anthology: Available soon.
+* ACL-Anthology: [🔗 Official Link](https://aclanthology.org/2024.findings-acl.825/)
 
 ## Code
 [**Source Code**](https://github.com/ldilab/DADA)

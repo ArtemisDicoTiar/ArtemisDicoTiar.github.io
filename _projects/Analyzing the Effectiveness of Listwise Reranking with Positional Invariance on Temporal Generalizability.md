@@ -36,8 +36,8 @@ especially effective, and more so, as temporal drift increases, on the test-long
   * wishing to attend either EMNLP or AAAI.
 
 ## Paper
-* Arxiv: https://arxiv.org/abs/2407.06716
-* CLEF-WN 2024 / LongEval: Available on September, 2024.
+* Arxiv: [🔗 Link](https://arxiv.org/abs/2407.06716)
+* CLEF-WN 2024 / LongEval: [🔗 Official Link](https://ceur-ws.org/Vol-3740/paper-221.pdf)
 
 ## Code
 [**Source Code**](https://github.com/ldilab/longeval2024)
