@@ -32,13 +32,14 @@
   "publications": [
     {
       "name": "Analyzing the Effectiveness of Listwise Reranking with Positional Invariance on Temporal Generalizability",
-      "website": "https://arxiv.org/abs/2407.06716",
+      "website": "https://ceur-ws.org/Vol-3740/paper-221.pdf",
       "publisher": "CLEF 2024, LongEval",
       "releaseDate": "2024-09",
       "summary": "Benchmarking the performance of information retrieval (IR) methods are mostly conducted within a fixed set of documents (static corpora). However, in real-world web search engine environments, the document set is continuously updated and expanded. Addressing these discrepancies and measuring the temporal persistence of IR systems is crucial. By investigating the LongEval benchmark, specifically designed for such dynamic environments, our findings demonstrate the effectiveness of a listwise reranking approach, which proficiently handles inaccuracies induced by temporal distribution shifts. Among listwise rerankers, our findings show that ListT5, which effectively mitigates the positional bias problem by adopting the Fusion-in-Decoder architecture, is especially effective, and more so, as temporal drift increases, on the test-long subset."
     },
     {
       "name": "DADA: Distribution-Aware Domain Adaptation of PLMs for Information Retrieval",
+      "website": "https://aclanthology.org/2024.findings-acl.825/",
       "publisher": "Findings of ACL 2024",
       "releaseDate": "2024-06",
       "summary": "Pre-trained language models (PLMs) exhibit promise in retrieval tasks but struggle with out-of-domain data due to distribution shifts.\nAddressing this, generative domain adaptation (DA), known as GPL, tackles distribution shifts by generating pseudo queries and labels to train models for predicting query-document relationships in new domains.\nHowever, it overlooks the domain distribution, causing the model to struggle with aligning the distribution in the target domain.\nWe, therefore, propose a \\textbf{\\oursfull} (\\ours) to guide the model to consider the domain distribution knowledge at the level of both a single document and the corpus, which is referred to as observation-level feedback and domain-level feedback, respectively.\nOur method effectively adapts the model to the target domain and expands document representation to unseen gold query terms using domain and observation feedback, as demonstrated by empirical results on the BEIR benchmark."
